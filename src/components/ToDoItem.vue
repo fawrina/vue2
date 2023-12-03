@@ -15,11 +15,11 @@
         class="btn"
         ref="editButton"
         @click="toggleToItemEditForm">
-        Edit
+        Редактировать
         <span class="visually-hidden">{{ label }}</span>
       </button>
       <button type="button" class="btn btn__danger" @click="deleteToDo">
-        Delete
+        Удалить
         <span class="visually-hidden">{{ label }}</span>
       </button>
     </div>
@@ -86,38 +86,19 @@ export default {
   font-family: Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 1.25;
-  color: #0b0c0c;
   display: block;
-  margin-bottom: 5px;
 }
 .custom-checkbox > .checkbox {
   font-family: Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 1.25;
   box-sizing: border-box;
   width: 100%;
   height: 40px;
   height: 2.5rem;
-  margin-top: 0;
-  padding: 5px;
-  border: 2px solid #0b0c0c;
-  border-radius: 0;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-}
-.custom-checkbox > input:focus {
-  outline: 3px dashed #fd0;
-  outline-offset: 0;
-  box-shadow: inset 0 0 0 2px;
 }
 .custom-checkbox {
   font-family: Arial, sans-serif;
